@@ -1,0 +1,10 @@
+- [x] Create title for app DONE
+- [ ] Create description of the app 
+- [x] Create Read.me DONE
+- [ ] Upload code from an existing gym tracker
+- [ ] Clone files to Github Desktop and upload them to Visual Studio 
+- [ ] Run the code, locate problems 
+- [ ] Analyze code in Visual Studio, leave comments for each problem 
+- [ ] Assign each problem to group member
+- [ ] Work each problem and find a solution
+- [ ] Make notes of successful changes, and also unscuccessful attempts
