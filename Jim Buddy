@@ -12,3 +12,16 @@ class GymAttendanceTracker:
         timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
         attendance_entry = f"{timestamp} - Member ID: {member_id}"
         self.attendance.add(attendance_entry)
+def save_attendance_to_file(self):
+        with open(self.attendance_file, 'a') as file:
+            for entry in self.attendance:
+                file.write(entry + '\n')
+
+    def display_attendance(self):
+        print(f"Attendance for {self.gym_name}:")
+        for entry in self.attendance:
+            print(entry)
+
+def main():
+    gym_name = "Jim Buddy"
+    tracker = GymAttendanceTracker(gym_name)
